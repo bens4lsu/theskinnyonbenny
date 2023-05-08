@@ -23,6 +23,7 @@ $table_prefix  = 'wpben_';   // example: 'wp_' or 'b2' or 'mylogin_'
 // to enable German language support.
 define ('WPLANG', '');
 
+define('FS_METHOD','direct');
 /* Stop editing */
 
 define('ABSPATH', dirname(__FILE__).'/');
