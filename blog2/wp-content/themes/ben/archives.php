@@ -16,13 +16,13 @@ error_reporting(E_ALL);
 	$prevMonthCode = '';
 	$firstFlag = false;
 	while ($row = $db->selectRowsArrayAssoc()){
-		$intDate = strtotime ($row[post_date]);
+		$intDate = strtotime ($row['post_date']);
 
 		$currMonthCode = date('MY',$intDate);
 		if ($prevMonthCode <> $currMonthCode) {
 			echo '<h2>'.date ('F Y', $intDate).'</h2><br />';
 		}
-		echo '<a style=\'margin-left:30px;\' href=\'https://theskinnyonbenny.com/blog2/archives/'.$row[ID].'\'>'.date ('l, F j, Y', $intDate).':  '.$row[post_title].'</a><br />';
+		echo '<a style=\'margin-left:30px;\' href=\'https://theskinnyonbenny.com/blog2/archives/'.$row['ID'].'\'>'.date ('l, F j, Y', $intDate).':  '.$row['post_title'].'</a><br />';
 		$prevMonthCode = $currMonthCode;
 	}
 ?>
