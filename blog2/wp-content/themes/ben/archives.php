@@ -8,6 +8,7 @@
 
 	$prevMonthCode = '';
 	$firstFlag = false;
+	print_r($db->selectRowsArrayAssoc($sqlList));
 	while ($row = $db->selectRowsArrayAssoc($sqlList)){
 		$intDate = strtotime ($row[post_date]);
 
