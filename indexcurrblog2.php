@@ -1,7 +1,7 @@
 <?php
    	ini_set ('display_errors',1);
    	require_once ('db-pdo.class.php');
-    $postQry = $DB->query ("SELECT post_content, id, post_title FROM wpben_posts where post_status='publish' ORDER BY post_date DESC LIMIT 1");
+    $postQry = "SELECT post_content, id, post_title FROM wpben_posts where post_status='publish' ORDER BY post_date DESC LIMIT 1";
     $Content = $DB->run($postQry);
     $Text = explode ('<!--more-->', $Content['post_content']);
     $txt = $Text[0];
