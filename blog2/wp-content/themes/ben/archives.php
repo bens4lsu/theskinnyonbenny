@@ -15,7 +15,7 @@ error_reporting(E_ALL);
     $results = $db->selectRowsArrayAssoc();
 	$prevMonthCode = '';
 	$firstFlag = false;
-	for ($row in $results){
+	foreach ($results as $row){
 	print_r($row);
 		$intDate = strtotime ($row['post_date']);
 
