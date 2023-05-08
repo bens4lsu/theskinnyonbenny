@@ -1,6 +1,6 @@
 <?php
 
-if ($handle = opendir('./dailyphoto/2022/')) {
+if ($handle = opendir('./dailyphoto/2023/')) {
 	while (($file = readdir($handle)) !== false) {
     if (substr (mb_convert_case($file,MB_CASE_LOWER), -4, 4) == ".jpg")
        $files[]=$file;
