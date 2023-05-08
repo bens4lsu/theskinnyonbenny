@@ -10,7 +10,7 @@ error_reporting(E_ALL);
 <div id="content" class="widecolumn">
 
 <?php
-	require_once ("../../../../db-pdo.class.php");
+	require_once ("../db-pdo.class.php");
 	$sqlList = $db->prepare ("SELECT `post_date`, `post_title`, `ID` FROM `wpben_posts` where post_type = 'post' and post_status = 'publish' ORDER BY `post_date` DESC");
 
 	$prevMonthCode = '';
