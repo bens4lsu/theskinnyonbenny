@@ -11,12 +11,12 @@ error_reporting(E_ALL);
 
 <?php
 	require_once ("../db-pdo.class.php");
-	$sqlList = $db->prepare ("SELECT `post_date`, `post_title`, `ID` FROM `wpben_posts` where post_type = 'post' and post_status = 'publish' ORDER BY `post_date` DESC");
+	$db->prepare ("SELECT `post_date`, `post_title`, `ID` FROM `wpben_posts` where post_type = 'post' and post_status = 'publish' ORDER BY `post_date` DESC");
 
 	$prevMonthCode = '';
 	$firstFlag = false;
-	print_r($db->selectRowsArrayAssoc($sqlList));
-	while ($row = $db->selectRowsArrayAssoc($sqlList)){
+	print_r($db->selectRowsArrayAssoc());
+	while ($row = $db->selectRowsArrayAssoc()){
 		$intDate = strtotime ($row[post_date]);
 
 		$currMonthCode = date('MY',$intDate);
