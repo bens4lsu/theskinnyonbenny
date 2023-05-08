@@ -169,13 +169,13 @@ $fullimagepath = $path.'/'.$year.substr('0'.$month, -2).substr('0'.$day, -2).'.j
 				<tr><td class="alignleft">
 					<?php
 						if ($key !== (count($files)-1) && file_exists($year.$month.$day.".jpg"))
-							echo "<font size=\"-1\"><a href=\"https://theskinnyonbenny.com/dailyphoto/2022/page.php?year=".$prevyear."&month=".$prevmonth."&day=".$prevday."\">&laquo; Previous</font></a>";
+							echo "<font size=\"-1\"><a href=\"https://theskinnyonbenny.com/dailyphoto/2023/page.php?year=".$prevyear."&month=".$prevmonth."&day=".$prevday."\">&laquo; Previous</font></a>";
 					?>
 					</td>
 					<td class="alignright">
 						<?php
 							if ($key !== 0 && file_exists($year.$month.$day.".jpg") && (substr($files[$key-1],0,4) < $now_array["year"] || substr($files[$key-1],0,4) == $now_array["year"] && substr($files[$key-1],4,2) < $now_array["mon"] || substr($files[$key-1],0,4) == $now_array["year"] && substr($files[$key-1],4,2) == $now_array["mon"] && substr($files[$key-1],6,2) <= $now_array["mday"]))
-							echo "<font size=\"-1\"><a href=\"https://theskinnyonbenny.com/dailyphoto/2022/page.php?year=".$nextyear."&month=".$nextmonth."&day=".$nextday."\">Next &raquo;</font></a>";
+							echo "<font size=\"-1\"><a href=\"https://theskinnyonbenny.com/dailyphoto/2023/page.php?year=".$nextyear."&month=".$nextmonth."&day=".$nextday."\">Next &raquo;</font></a>";
 						?>
 					</td>
 				</tr>
