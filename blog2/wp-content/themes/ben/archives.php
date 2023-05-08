@@ -12,10 +12,10 @@ error_reporting(E_ALL);
 <?php
 	require_once ("../db-pdo.class.php");
 	$db->stmt = $db->prepare ("SELECT `post_date`, `post_title`, `ID` FROM `wpben_posts` where post_type = 'post' and post_status = 'publish' ORDER BY `post_date` DESC");
-
+    $results = $db->selectRowsArrayAssoc()
 	$prevMonthCode = '';
 	$firstFlag = false;
-	while ($row = $db->selectRowsArrayAssoc()){
+	for ($row in $results){
 	print_r($row);
 		$intDate = strtotime ($row['post_date']);
 
