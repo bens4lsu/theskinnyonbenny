@@ -1,0 +1,15 @@
+<div style="margin:0px;">
+  <embed width="190" height="300" src="http://www.goodreads.com/images/widget/widget2.swf" 
+    quality="high" wmode="transparent" 
+    FlashVars="id=3743890&shelf=read&title=Ben's bookshelf: read&host=www.goodreads.com&sort=date_added&order=desc&params=amazon,,dest_site,">
+  </embed>
+</div>
+<div id="gr-fl-widget-1319211584">
+  <div style="border: 1px solid #d7d7d7;-moz-border-radius:10px;-webkit-border-radius:10px;width: 165px;padding:10px; margin-bottom: 4px"><span style="color: #aaa;font-style:italic">Ben's bookshelf: read</span><br/><br/>
+  <a href="http://www.goodreads.com/book/show/11151351-three-cups-of-deceit" style="float: left; padding: 2px" title="Three Cups of Deceit: How Greg Mortenson, Humanitarian Hero, Lost His Way"><img alt="Three Cups of Deceit: How Greg Mortenson, Humanitarian Hero, Lost His Way" border="0" height="70" src="http://photo.goodreads.com/books/1303177098s/11151351.jpg" width="50" /></a><a href="http://www.goodreads.com/book/show/89724.We_Have_Always_Lived_in_the_Castle" style="float: left; padding: 2px" title="We Have Always Lived in the Castle"><img alt="We Have Always Lived in the Castle" border="0" height="70" src="http://photo.goodreads.com/books/1311400048s/89724.jpg" width="50" /></a><a href="http://www.goodreads.com/book/show/7815373-blood-sweat-chalk" style="float: left; padding: 2px" title="Blood, Sweat &amp; Chalk: How the Geniuses of Football Created America's Favorite Game"><img alt="Blood, Sweat &amp; Chalk: How the Geniuses of Football Created America's Favorite Game" border="0" height="70" src="http://photo.goodreads.com/books/1270163210s/7815373.jpg" width="50" /></a><a href="http://www.goodreads.com/book/show/6323821-last-night-in-twisted-river" style="float: left; padding: 2px" title="Last Night in Twisted River"><img alt="Last Night in Twisted River" border="0" height="70" src="http://photo.goodreads.com/books/1255597935s/6323821.jpg" width="50" /></a><a href="http://www.goodreads.com/book/show/7937843-room" style="float: left; padding: 2px" title="Room"><img alt="Room" border="0" height="70" src="http://photo.goodreads.com/books/1311633804s/7937843.jpg" width="50" /></a><a href="http://www.goodreads.com/book/show/3153910-the-art-of-racing-in-the-rain" style="float: left; padding: 2px" title="The Art of Racing in the Rain"><img alt="The Art of Racing in the Rain" border="0" height="70" src="http://ecx.images-amazon.com/images/I/416e8KyVWUL._SL75_.jpg" width="50" /></a><br style="clear:both"/><br/><a href="http://www.goodreads.com/user/show/3743890-ben" style="color: #aaa;font-size: .9em">More of Ben's books &raquo;</a>
+  </div>
+</div>
+<script type="text/javascript">document.getElementById('gr-fl-widget-1319211584').innerHTML=""; // in case no flash/js</script>
+<div style="margin:0px;">
+<a href="http://www.goodreads.com/"><img alt="Book recommendations, book reviews, quotes, book clubs, book trivia, book lists" border="0" height="32" src="http://www.goodreads.com/images/widget/widget_logo.gif" title="Book recommendations, book reviews, quotes, book clubs, book trivia, book lists" width="190" /></a>
+</div>

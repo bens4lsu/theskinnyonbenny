@@ -1,0 +1,237 @@
+/*****************************/
+/* Layout for web pages      */
+
+body {
+	background-color:#666699;
+}
+
+
+.corner{
+	position: absolute;
+	height: 111px;
+	margin-left: 0px;
+	margin-top: 0px;
+	overflow: hidden;
+}
+
+
+.banner{
+	position: absolute;
+	height:111px;
+	margin-left: 181px;
+	margin-top: 0px;
+	overflow: hidden;
+}
+
+
+/*******************************/
+/* Stylesheet for menu         */
+
+
+.sb2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 123px;
+	width: 180px;
+	padding-right: 6px;
+	color: #FFFFFF;
+	font-family: Perpetua, Times New Roman, serif;
+	font-weIght: bold;
+	font-size: 15px;
+	text-align: right;
+	text-decoration: none;
+	border:0px;
+	line-height:20px;
+	vertical-align: bottom;
+}
+
+a.sbtop:link, a.sbtop:visited {
+	color: #FFFFFF; 
+	font: inherit;
+	font-weIght: bold;
+	text-decoration: none;
+}
+
+a.sbtop:hover{
+	color: #FFFFFF;
+	font: inherit;
+	font-weIght: bold;
+	text-decoration: underline;
+}
+
+a.sbtop:active{
+	color: #FFFFFF;
+	font: inherit;
+	font-weight:normal;
+	font-weIght: bold;
+	text-decoration: none;
+}
+
+a.sblev2:link, a.sblev2:visited {
+	color: #FFFFFF;
+	font: inherit;
+	font-weight:normal;
+	text-align: right;
+	text-decoration: none;
+	line-height: 20px;
+	vertical-align:top;
+}
+
+a.sblev2:hover{
+	color: #FFFFFF;
+	font: inherit;
+	font-weight:normal;
+	text-decoration: underline;
+	line-height: 20px;
+	vertical-align:top;
+}
+
+a.sblev2:active{
+	color: #FFFFFF;
+	font: inherit;
+	font-weight:normal;
+	text-decoration: none;
+	line-height: 20px;
+	vertical-align:top;
+}
+
+
+/***********************************************/
+/* Style definitions for right side banner     */
+
+.rsb {
+	position: absolute;
+	margin-left: 798px;
+	margin-top: 128px;
+	width: 160px;
+	padding: 6px;
+	color: #CCCCCC;
+	font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-weIght: normal;
+	font-size: 10px;
+	text-align: left;
+	text-decoration: none;
+	border:0px;
+}
+
+a.rsblnk:link, a.rsblnk:visited {
+	color: #FFFFFF;
+	font: inherit;
+	font-weight: normal;
+}
+
+a.rsblnk:hover {
+	color: #FFFFFF;
+	font: inherit;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+a.rsblnk:active {
+	color: #FFFFFF;
+	font: inherit;
+	font-weight: normal;
+}
+
+
+.rsheader {
+	background-color: #000000;
+	font:inherit;
+	color: FFFFFF;
+	}
+	
+
+
+/****************************************/
+/* Style definitions for content        */
+
+.mb2 {
+	position: absolute;
+	margin-left: 181px;
+	margin-top: 108px;
+	width: 617px;
+	background-color:#B5B5CE;
+	font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	text-align: left;
+	line-height: 15px;
+	padding: 4px;
+}
+
+.pop {
+	background-color:#B5B5CE;
+	font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	text-align: left;
+	line-height: 15px;
+	padding: 4px;
+}
+
+	
+td, h1, h2, h3, th {
+	font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	line-height: 15px;
+	vertical-align:top;
+}
+
+
+blockquote {
+	font-family: Perpetua, Times New Roman, serif;
+	font-size: medium;
+	margin-left: 5em;
+	margin-right: 3em;
+	margin-bottom:0;
+}
+
+li {
+	list-style-position:outside;
+}
+
+
+p {
+	margin-left:2em;
+}
+
+h1, th{
+	font-weight:bold
+}
+
+
+a:link, a:visited {
+	color: #666699;
+	font: inherit;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #666699;
+	font: inherit;
+	font-weight: bold;
+}
+
+a:active{
+	color: #666699;
+	font: inherit;
+	font-weight:normal;
+	font-weight: normal;
+}
+
+.caption {
+	font-family: verdana, arial, geneva; 
+	font-size:11px; 
+	color:#666666; 
+	text-align:left; 
+	font-weight: bold; 
+	text-decoration:none;
+}
+
+.datestamp{
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.9em;
+	line-height: 1em;
+	color: #777;
+	margin-top:0;
+	margin-bottom:0;
+}

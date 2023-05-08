@@ -1,0 +1,66 @@
+body, body td {
+	font-size: 62.5%; /* Resets 1em to 10px */
+	}
+
+h2 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-weight: bold;
+	font-size: 1.6em;
+	padding:0;
+	margin-top:0;
+	margin-bottom:0;
+	}
+
+p, a, td {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+  	line-height: 1em;
+	font-size: 1.1em;
+	padding:0;
+	margin-top:0.7em;
+	margin-bottom:0.5em;
+	}
+
+.datestamp{
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.9em;
+	line-height: 1em;
+	color: #777;
+	margin-top:0;
+	margin-bottom:0;
+	}
+
+
+a {
+	color: #9E2606;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #147;
+	text-decoration: underline;
+	}
+	
+.caption {
+	font-family: verdana, arial, geneva; 
+	font-size:11px; 
+	color:#666666; 
+	text-align:left; 
+	font-weight: bold; 
+	text-decoration:none;
+	text-indent:0;
+	margin-left:5em;
+	margin-right:5em;
+	}
+	
+td.recordnum{
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.7em;
+	line-height: 1em;
+	color: #777;
+	margin-top:0;
+	margin-bottom:0;
+	}
+
+img {
+	border: solid #9E2606;
+	}

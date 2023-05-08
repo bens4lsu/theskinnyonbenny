@@ -1,0 +1,43 @@
+body {background-color:#666699;color=#000000; font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;  margin-top:0px; text-align:center}
+
+blockquote {font-family: Courier New, Courier, Times New Roman, serif; margin-left: 3em; margin-right: 2en}
+h1 {font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 21px; font-weight:bold; margin-left:0em}
+
+.sidebar {color: #FFFFFF; font-family: Perpetua, Times New Roman, serif; font-weIght: normal; font-size: 15px; text-decoration:none; text-align:right}
+.sidebar:link {color: #FFFFFF; font-family: Perpetua, Times New Roman, serif; font-weIght: bold; font-size: 15px; text-decoration:none; text-align:right}
+.sidebar:visited {color: #FFFFFF; font-family: Perpetua, Times New Roman, serif; font-weIght: bold; font-size: 15px; text-decoration:none; text-align:right}
+.sidebar:hover {color: #FFFFFF; font-family:  Perpetua, Times New Roman, serif; font-weIght: bold; font-size: 15px; text-decoration:underline; text-align:right}
+.sidebar:active {color: #FFFFFF; font-family:  Perpetua, Times New Roman, serif; font-weIght: bold; font-size: 15px; text-decoration:underlinee; text-align:right}
+
+.caption {background-color:#B5B5CE; font-family: verdana, arial, geneva; font-size:11px; color:#666666; text-align:left; font-weight: bold; text-decoration:none;}
+.caption:link {color: #666699; font-weight:normal; font-family: verdana, arial, geneva; font-size:11px; text-align:left; text-decoration:none;}
+.caption:visited {color: #666699; font-weight:normal; font-family: verdana, arial, geneva; font-size:11px;  text-align:left; text-decoration:none;}
+.caption:hover {color: #666699; font-weight:bold; font-family: verdana, arial, geneva; font-size:11px;  text-align:left; text-decoration:none;}
+.caption:active {color: #66699;font-weight:normal; font-family: verdana, arial, geneva; font-size:11px;  text-align:left; text-decoration:none;}
+
+
+.mainbox {background-color:#B5B5CE;font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; margin-left:1em;text-align: left; line-height: 18px}
+.mainbox:link {color: #666699; font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-decoration:none}
+.mainbox:visited {color: #666699; font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-decoration:none}
+.mainbox:hover {color: #666699;font-weight:bold; font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-decoration:none}
+.mainbox:active {color: #66699;font-weight:normal; font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-decoration:none}
+ol.mainbox {text-align:left}
+
+.karma:link {color: #666699; font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-decoration:none}
+.karma:visited {color: #666699; font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-decoration:none}
+.karma:hover {color: #666699; font-family: Trebouchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-decoration:underline}
+
+.mt2 {color: #000000; font-family: Verdana, sans-serif;font-weight: normal; font-size: 11px;text-decoration:none;}
+.mt2:link {color: #000000; font-family: Verdana, sans-serif; font-size: 11px; text-decoration:none}
+.mt2:visited {color: #000000; font-family: Verdana, sans-serif; font-size: 11px; text-decoration: none;}
+.mt2:hover{color: #000000; font-family: Verdana, sans-serif; font-size: 11px; text-decoration: underline;}
+.mt2:active {color: #000000; font-family: Verdana, sans-serif; font-size: 11px; text-decoration: underlinee;}
+
+.sideitem {color: #FFFFFF; font-family: Perpetua, Times New Roman, serif; font-weIght: normal; font-size: 15px; text-decoration:none; text-align:right}
+.sideitem:link {color: #FFFFFF; font-family: Perpetua, Times New Roman, serif; font-weIght: normal; font-size: 15px; text-decoration:none; text-align:right}
+.sideitem:visited {color: #FFFFFF; font-family: Perpetua, Times New Roman, serif; font-weIght: normal; font-size: 15px; text-decoration:none; text-align:right}
+.sideitem:hover {color: #FFFFFF; font-family:  Perpetua, Times New Roman, serif; font-weIght: normal; font-size: 15px; text-decoration:underline; text-align:right}
+.sideitem:active {color: #FFFFFF; font-family:  Perpetua, Times New Roman, serif; font-weIght: normal; font-size: 15px; text-decoration:underlinee; text-align:right}
+
+
+
