@@ -16,7 +16,6 @@ error_reporting(E_ALL);
 	$prevMonthCode = '';
 	$firstFlag = false;
 	foreach ($results as $row){
-	print_r($row);
 		$intDate = strtotime ($row['post_date']);
 
 		$currMonthCode = date('MY',$intDate);
