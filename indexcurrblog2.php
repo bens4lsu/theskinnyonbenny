@@ -1,7 +1,7 @@
 <?php
    	ini_set ('display_errors',1);
    	require_once ('db-pdo.class.php');
-    $db->stmt = "SELECT post_content, id, post_title FROM wpben_posts where post_status='publish' ORDER BY post_date DESC LIMIT 1";
+    $db->stmt = $db->prepare("SELECT post_content, id, post_title FROM wpben_posts where post_status='publish' ORDER BY post_date DESC LIMIT 1");
     $content = $db->selectRowAssoc();
     $text = explode ('<!--more-->', $content['post_content']);
     $txt = $text[0];
