@@ -1,6 +1,6 @@
 <?php
    	ini_set ('display_errors',1);
-   	require_once ('dbo-pdf.class.php');
+   	require_once ('dbo-php.class.php');
     $postQry = $db->query ("SELECT post_content, id, post_title FROM wpben_posts where post_status='publish' ORDER BY post_date DESC LIMIT 1");
     $Content = $db->run($postQry);
     $Text = explode ('<!--more-->', $Content['post_content']);
