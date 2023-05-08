@@ -11,7 +11,7 @@ error_reporting(E_ALL);
 
 <?php
 	require_once ("../db-pdo.class.php");
-	$db->prepare ("SELECT `post_date`, `post_title`, `ID` FROM `wpben_posts` where post_type = 'post' and post_status = 'publish' ORDER BY `post_date` DESC");
+	$db->stmt = $db->prepare ("SELECT `post_date`, `post_title`, `ID` FROM `wpben_posts` where post_type = 'post' and post_status = 'publish' ORDER BY `post_date` DESC");
 
 	$prevMonthCode = '';
 	$firstFlag = false;
