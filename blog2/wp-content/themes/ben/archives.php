@@ -16,6 +16,7 @@ error_reporting(E_ALL);
 	$prevMonthCode = '';
 	$firstFlag = false;
 	while ($row = $db->selectRowsArrayAssoc()){
+	print_r($row);
 		$intDate = strtotime ($row['post_date']);
 
 		$currMonthCode = date('MY',$intDate);
