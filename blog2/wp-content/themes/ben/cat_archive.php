@@ -14,7 +14,7 @@
     <h2>Blog Index</h2>
 
     <?php
-
+/*
         $subBaseURL = $baseURL."sortby=categories&category_id=";
         $category_id = $_GET["category_id"];
         $cats = get_categories('sort_column=name&optioncount=1');		
@@ -47,7 +47,7 @@
                 <? } ?>
             </ul>
         <? } 
-    ?>
+*/   ?>
 			
 	
 
