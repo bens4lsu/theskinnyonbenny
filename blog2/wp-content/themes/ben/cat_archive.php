@@ -14,11 +14,11 @@
     <h2>Blog Index</h2>
 
     <?php
-/*
+
         $subBaseURL = $baseURL."sortby=categories&category_id=";
         $category_id = $_GET["category_id"];
         $cats = get_categories('sort_column=name&optioncount=1');		
-        if (is_array($cats) && count($cats)) { ?>
+        if (is_array($cats) && count($cats)) { /*?>
             <p class="index_expand">
                 <a title="Expand all posts by categories" href="<?=$subBaseURL?>all">Expand all</a>
             </p>
@@ -46,8 +46,8 @@
                     <? } ?>
                 <? } ?>
             </ul>
-        <? } 
-*/   ?>
+        <? */} 
+   ?>
 			
 	
 
