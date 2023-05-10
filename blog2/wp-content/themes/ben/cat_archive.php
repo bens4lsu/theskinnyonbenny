@@ -18,12 +18,12 @@
         $subBaseURL = $baseURL."sortby=categories&category_id=";
         $category_id = $_GET["category_id"];
         $cats = get_categories('sort_column=name&optioncount=1');		
-        if (is_array($cats) && count($cats)) { /*?>
+        if (is_array($cats) && count($cats)) { ?>
             <p class="index_expand">
                 <a title="Expand all posts by categories" href="<?=$subBaseURL?>all">Expand all</a>
             </p>
             <ul class="index">
-                <?php foreach ($cats as $cat) { ?>
+                <?php foreach ($cats as $cat) { /*?>
                     <li id="cat-<?=$cat->cat_ID?>" class="cat-item">
                         <a title="View all posts filed under <?=$cat->name?>" href="<?=$subBaseURL.$cat->cat_ID?>#cat-<?=$cat->cat_ID?>"><?=$cat->name?></a> <span>(<?=$cat->count?>)</span>
                     </li>
@@ -44,9 +44,9 @@
                             </ul>
                         <? } ?>
                     <? } ?>
-                <? } ?>
+                <? } */?>
             </ul>
-        <? */} 
+        <? } 
    ?>
 			
 	
