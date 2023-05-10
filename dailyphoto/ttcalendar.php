@@ -135,7 +135,7 @@ function returnmonthhtml($month_array,$topcolour="",$tableattributes=""){
 		if($cellcount==7){
 			$html.="</tr>\n";
 			$cellcount=0;
-			if($month_array[$i+1]["num"]==""){break;} #leave the table if the next row's empty
+			//if($month_array[$i+1]["num"]==""){break;} #leave the table if the next row's empty
 		}
 		$cellcount++;
 	}
