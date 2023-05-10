@@ -5,7 +5,6 @@
 <title>Ben's daily photos on theskinnyonbenny.com</title>
 <meta name=description content="Web Page for Ben Schultz, Baton Rouge, LA ">
 <meta name=keywords content="Photo, Photoblog, Humor, Images">
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 <meta property="og:image" content="<?php print $fullimagepath; ?>" />
 <meta property="og:description" content="" />
@@ -31,7 +30,7 @@
 	</div>
 
 	<div id="content" class="widecolumn">
-	    <iframe src="https://dynamic.theskinnyonbenny.com/dp" style="border:none; width: 100%; height: 1200px;"></iframe>
+	    <iframe src="https://dynamic.theskinnyonbenny.com/dp" style="border:none; width: 100%; height: 1800px;"></iframe>
 	</div>
 
 	<?php include("../indexFooter.php");	?>
