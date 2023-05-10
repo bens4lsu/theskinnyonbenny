@@ -23,7 +23,7 @@
                 <a title="Expand all posts by categories" href="<?=$subBaseURL?>all">Expand all</a>
             </p>
             <ul class="index">
-                <?php foreach ($cats as $cat) { /*?>
+                <?php foreach ($cats as $cat) { ?>
                     <li id="cat-<?=$cat->cat_ID?>" class="cat-item">
                         <a title="View all posts filed under <?=$cat->name?>" href="<?=$subBaseURL.$cat->cat_ID?>#cat-<?=$cat->cat_ID?>"><?=$cat->name?></a> <span>(<?=$cat->count?>)</span>
                     </li>
@@ -44,7 +44,7 @@
                             </ul>
                         <? } ?>
                     <? } ?>
-                <? */}} ?>
+                <? }} ?>
             </ul>
         <? } 
    ?>
