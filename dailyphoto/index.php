@@ -31,7 +31,7 @@
 	</div>
 
 	<div id="content" class="widecolumn">
-	    <iframe src="https://dynamic.theskinnyonbenny.com/dp" style="border:none;"></iframe>
+	    <iframe src="https://dynamic.theskinnyonbenny.com/dp" style="border:none; width: 100%; height: 1200px;"></iframe>
 	</div>
 
 	<?php include("../indexFooter.php");	?>
