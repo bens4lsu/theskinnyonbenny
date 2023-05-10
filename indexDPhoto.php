@@ -1,6 +1,14 @@
 <?php
+<?php
+$arrContextOptions=array(
+    "ssl"=>array(
+        "verify_peer"=>false,
+        "verify_peer_name"=>false,
+    ),
+);  
 
-$link = file_get_contents("https://dynamic.theskinnyonbenny.com/dp/currentImg");
+$link = file_get_contents("https://dynamic.theskinnyonbenny.com/dp/currentImg", false, stream_context_create($arrContextOptions));
+
 ?>
 
 <h2>The Daily Photo</h2>
