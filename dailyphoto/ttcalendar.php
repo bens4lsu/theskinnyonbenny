@@ -72,7 +72,7 @@ function dayrangecolour($month_array,$colour,$start,$end=""){
 	$i=0;
 	do{ #find first day
 		$i++;
-	}//while($month_array[$i]["num"]!=$start);
+	}while($month_array[$i-1]["num"]!=$start);
 	for ($day = $i; $day <= ($i+($end-$start)); $day++) {
 		$month_array[$day]["col"]=$colour;
 	}
@@ -94,7 +94,7 @@ function dayrangelink($month_array,$link,$start,$end=""){
 	$i=0;
 	do{ #find first day
 		$i++;
-	}//while($month_array[$i]["num"]!=$start);
+	}while($month_array[$i-1]["num"]!=$start);
 	for ($day = $i; $day <= ($i+($end-$start)); $day++) {
 		$month_array[$day]["link"]=$link;
 	}
