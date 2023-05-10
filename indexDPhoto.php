@@ -1,6 +1,6 @@
 <?php
 
-$link = file_get_contents("https://dynamic.theskinnyonbenny.com/dp");
+$link = file_get_contents("https://dynamic.theskinnyonbenny.com/dp/currentImg");
 ?>
 
 <h2>The Daily Photo</h2>
