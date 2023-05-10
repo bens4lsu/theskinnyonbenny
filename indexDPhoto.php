@@ -1,5 +1,5 @@
 <?php
-<?php
+
 $arrContextOptions=array(
     "ssl"=>array(
         "verify_peer"=>false,
