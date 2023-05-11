@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php get_header(); 
+
+function cmp($a, $b) {
+    return strcmp($a->post_title, $b->post_title);
+}
+
+
+?>
 
 <div id="content" class="widecolumn">
 
@@ -16,6 +23,7 @@
                 $posts = get_posts('category='.$cat->cat_ID.'&numberposts='.$cat->count);
                 if (is_array($posts) && count($posts)) { 
                     echo  '<ul class="index_posts">';
+                    usort($posts, 'cmp');
                     foreach($posts as $post) { 
                         //print_r($post);
                         echo '<li><a href="'.$post->guid.'">'.$post->post_title.'</a></li>'; 
