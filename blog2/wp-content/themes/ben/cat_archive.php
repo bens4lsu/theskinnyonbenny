@@ -13,7 +13,7 @@
             
             foreach ($cats as $cat) { 
                 print_r($cat);
-                echo '<h2>cat name</h2>';
+                echo '<h2>'.$cat->name.'</h2>';
                 $posts = get_posts('category='.$cat->cat_ID.'&numberposts='.$cat->count);
                 if (is_array($posts) && count($posts)) { 
                     echo  '<ul class="index_posts">';
