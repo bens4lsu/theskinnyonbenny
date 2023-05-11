@@ -18,7 +18,7 @@
                     echo  '<ul class="index_posts">';
                     foreach($posts as $post) { 
                         print_r($post);
-                        echo '<li><a href="'.the_permalink().'">'.the_title().'</a></li>'; 
+                        echo '<li><a href="'.$post->guid.'">'.$post->title.'</a></li>'; 
                     }
                 }
             }
