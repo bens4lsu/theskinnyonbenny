@@ -17,8 +17,8 @@
                 if (is_array($posts) && count($posts)) { 
                     echo  '<ul class="index_posts">';
                     foreach($posts as $post) { 
-                        print_r($post);
-                        echo '<li><a href="'.$post->guid.'">'.$post->title.'</a></li>'; 
+                        //print_r($post);
+                        echo '<li><a href="'.$post->guid.'">'.$post->post_title.'</a></li>'; 
                     }
                     echo '</ul>';
                 }
