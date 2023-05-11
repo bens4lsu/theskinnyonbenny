@@ -18,9 +18,7 @@
         $subBaseURL = $baseURL."sortby=categories&category_id=";
         $category_id = $_GET["category_id"];
         $cats = get_categories('sort_column=name&optioncount=1');		
-        if (is_array($cats) && count($cats)) { ?>
 
-        <? } 
    ?>
 			
 	
