@@ -19,7 +19,7 @@
                     echo  '<ul class="index_posts">';
                     foreach($posts as $post) { 
                         //$author = get_userdata($post->post_author);
-                        echo '<li><a href="'.the_permalink()'">'.the_title().'</a></li>'; 
+                        echo '<li><a href="'.the_permalink().'">'.the_title().'</a></li>'; 
                     }
                 }
             }
