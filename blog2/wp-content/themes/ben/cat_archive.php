@@ -37,7 +37,7 @@
                                     <li>
                                         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> by <?=$author->first_name?> <?=$author->last_name?> 
                                         <p>
-                                            <?=substr(strip_tags($post->post_content), 0, $nbSumupChars)?><?=strlen($post->post_content)>$nbSumupChars ? "..." : ""?>
+                                            <?=substr(strip_tags($post->post_content), 0, $nbSumupChars)?><?=strlen($post->post_content)>$nbSumupChars ? "..." : ""; ?>
                                         </p>
                                     </li>
                                     <? } ?>
