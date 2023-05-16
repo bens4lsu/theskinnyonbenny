@@ -7,9 +7,9 @@
 <meta name=keywords content="Dog, Beagle, Daisy, Tailgating, Ben Schultz, Baton Rouge, LA">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
-<link rel="stylesheet" type="text/css" href="http://theskinnyonbenny.com/skinnystyle2.css">
+<link rel="stylesheet" type="text/css" href="https://theskinnyonbenny.com/skinnystyle2.css">
 <link rel="shortcut icon" href="/img/headers/favicon.ico" type="image/x-icon" />
-<script language="javascript" src="http://theskinnyonbenny.com/menu.js"></script>
+<script language="javascript" src="https://theskinnyonbenny.com/menu.js"></script>
 </head>
 <body>
 	<div class="corner"><img border="0" src="/img/daisy&shelly.jpg" width="178" height="109"></div>

@@ -30,8 +30,8 @@ for ($i = 0; $i < count($files); $i++){
 	$itemList = $itemList.$tab.$tab.'<item>'.$nl;
 	$itemList = $itemList.$tab.$tab.$tab.$titleSummaryDuration.$nl;
 	$itemList = $itemList.$tab.$tab.$tab.'<itunes:author>Ben Schultz</itunes:author>'.$nl;
-	$itemList = $itemList.$tab.$tab.$tab.'<enclosure url="http://theskinnyonbenny.com/podcast/'.$file.'" length="'.$fsize.'" type="audio/mp4"/>'.$nl;
-	$itemList = $itemList.$tab.$tab.$tab.'<guid>http://theskinnyonbenny.com/podcast/'.$file.'</guid>'.$nl;
+	$itemList = $itemList.$tab.$tab.$tab.'<enclosure url="https://theskinnyonbenny.com/podcast/'.$file.'" length="'.$fsize.'" type="audio/mp4"/>'.$nl;
+	$itemList = $itemList.$tab.$tab.$tab.'<guid>https://theskinnyonbenny.com/podcast/'.$file.'</guid>'.$nl;
 	$itemList = $itemList.$tab.$tab.$tab.'<pubDate>'.$pubDate.'</pubDate>'.$nl;
 	$itemList = $itemList.$tab.$tab.'</item>'.$nl;
 }

@@ -6,8 +6,6 @@
 <meta name=description content="Web Page for Ben Schultz, Baton Rouge, LA ">
 <meta name=keywords content="Photo, Photoblog, Humor, Images">
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
-<meta property="og:image" content="<?php print $fullimagepath; ?>" />
-<meta property="og:description" content="" />
 <link rel="stylesheet" type="text/css" href="https://theskinnyonbenny.com/style.css">
 <link rel="shortcut icon" href="/img/headers/favicon.ico" type="image/x-icon" />
 <script language="javascript" src="https://theskinnyonbenny.com/menu.js"></script>

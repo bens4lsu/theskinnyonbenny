@@ -10,7 +10,7 @@
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 <link rel="stylesheet" type="text/css" href="/skinnystyle2.css">
 <link rel="shortcut icon" href="/img/headers/favicon.ico" type="image/x-icon" />
-<script language="javascript" src="http://theskinnyonbenny.com/menu.js"></script>
+<script language="javascript" src="https://theskinnyonbenny.com/menu.js"></script>
 </head>
 
 

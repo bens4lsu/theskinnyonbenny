@@ -13,7 +13,7 @@
 # $blogfilename is the name of the default file for your blog
 # $blogname is the name of your blog
 
-$siteurl = 'http://theskinnyonbenny.com/v-web/b2';
+$siteurl = 'https://theskinnyonbenny.com/v-web/b2';
 $blogfilename = 'index.php';
 $blogname = "my weblog";
 $blogdescription = "babblings !";
@@ -32,7 +32,7 @@ $use_cafelogping = 0;    # set this to 1 if you do have a Cafelog ID
 # $pathserver is where you have uploaded b2: for example, 'http://mydomain.com' (no ending slash !)
 #   by default b2 is set to run in the folder your blog resides, same as $siteurl
 
-$pathserver = 'http://theskinnyonbenny.com/v-web/b2';
+$pathserver = 'https://theskinnyonbenny.com/v-web/b2';
 
 
 # your email (obvious uh ?)
@@ -114,7 +114,7 @@ $use_fileupload = 1;
 $fileupload_realpath = '/home/users/web/b1051/sl.theskinn/public_html/v-web/b2/images';
 
 # enter the URL of that directory (it's used to generate the links to the pictures)
-$fileupload_url = 'http://theskinnyonbenny.com/v-web/b2/images';
+$fileupload_url = 'https://theskinnyonbenny.com/v-web/b2/images';
 
 # accepted file types, you can add to that list if you want
 #   note: add a space before and after each file type
@@ -207,7 +207,7 @@ $comments_notify = 1;
 $use_smilies = 1;
 
 # the directory where your smilies are (no trailing slash)
-$smilies_directory = 'http://theskinnyonbenny.com/v-web/b2/b2-img/smilies';
+$smilies_directory = 'https://theskinnyonbenny.com/v-web/b2/b2-img/smilies';
 
 # here's the conversion table, you can modify it if you know what you're doing
 $b2smiliestrans = array(

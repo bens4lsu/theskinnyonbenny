@@ -11,7 +11,7 @@
 // Define the webserver and path parameters
 // * DIR_FS_* = Filesystem directories (local/physical)
 // * DIR_WS_* = Webserver directories (virtual/URL)
-  define('HTTP_SERVER', 'http://theskinnyonbenny.com');		
+  define('HTTP_SERVER', 'https://theskinnyonbenny.com');		
   define('HTTPS_SERVER', 'https://st02.startlogic.com');
   define('ENABLE_SSL', false);			// secure webserver for checkout procedure?
   define('HTTP_COOKIE_DOMAIN', 'theskinnyonbenny.com');

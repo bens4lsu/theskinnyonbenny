@@ -11,8 +11,8 @@
 // Define the webserver and path parameters
 // * DIR_FS_* = Filesystem directories (local/physical)
 // * DIR_WS_* = Webserver directories (virtual/URL)
-  define('HTTP_SERVER', 'http://theskinnyonbenny.com');
-  define('HTTP_CATALOG_SERVER', 'http://theskinnyonbenny.com');
+  define('HTTP_SERVER', 'https://theskinnyonbenny.com');
+  define('HTTP_CATALOG_SERVER', 'https://theskinnyonbenny.com');
   define('HTTPS_CATALOG_SERVER', 'https://theskinnyonbenny.com');
   define('ENABLE_SSL_CATALOG', false); 	// secure webserver for catalog module
   define('DIR_FS_DOCUMENT_ROOT', '/home/users/web/b1051/sl.theskinn/public_html/osc/catalog/'); // where the pages are located on the server

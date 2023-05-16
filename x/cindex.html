@@ -6,8 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
 <META HTTP-EQUIV="Expires" CONTENT="Thu, 1 Jan 1970 01:00:00 GMT">
-<link rel="stylesheet" type="text/css" href="http://theskinnyonbenny.com/skinnyonbennyStyle.css">
-<script language="javascript" src="http://theskinnyonbenny.com/menu.js"></script>
+<link rel="stylesheet" type="text/css" href="https://theskinnyonbenny.com/skinnyonbennyStyle.css">
+<script language="javascript" src="https://theskinnyonbenny.com/menu.js"></script>
 </head>
 
 
@@ -17,19 +17,19 @@
 <table border="0" width="814" height="81">
   <tr>
     <td width="180" height="77"><img border="0" src="/img/BenPurple&Gold.JPG" width="178" height="109"></td>
-    <td bgcolor="#B5B5CE" width="617" height="77"><img border="0" src="http://theskinnyonbenny.com/img/BannerTextOnly.gif" width="617" height="111">
+    <td bgcolor="#B5B5CE" width="617" height="77"><img border="0" src="https://theskinnyonbenny.com/img/BannerTextOnly.gif" width="617" height="111">
     </td>
   </tr>
   <tr>
     <td width="180" valign="top">
-      <?php include("http://theskinnyonbenny.com/menu.php");?>
+      <?php include("https://theskinnyonbenny.com/menu.php");?>
 	</td>
 
 	<td width="617" class="mainbox">
 		<table cellpadding="10" border="0" height="279">
 		  <tr>
 		    <td class="mainbox"  colspan="3">
-		      <?php include("http://theskinnyonbenny.com/indexMainMess.html");?>
+		      <?php include("https://theskinnyonbenny.com/indexMainMess.html");?>
     		</td>
   		  </tr>
           <tr>

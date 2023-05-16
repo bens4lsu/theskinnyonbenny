@@ -79,7 +79,7 @@
 <h4>quick links:</h4>
 
 <a href="http://www.crying-babies.com/" title="b2's homepage">Crying Babies</a><br />
-<a href="http://theskinnyonbenny.com" title="another link">A Plunger on My Ass</a><br />
+<a href="https://theskinnyonbenny.com" title="another link">A Plunger on My Ass</a><br />
 <a href="http://www.lagumbo.com/brrg/restaurantchinese.htm" title="another link">Chinese Food</a><br />
 <a href="http://www.travelsecrets.com/tricks/#dangerous" title="another link">Dangerous Airlines</a><br />
 
