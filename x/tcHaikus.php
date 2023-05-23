@@ -34,30 +34,4 @@
 
 	<p class="caption"> This content contributed and maintained by <a href="mailto:tylerdrew@gmail.com">Tyler Cummings</a></p><p></p>
 
-	<?php
-	ini_set ('display_errors',1);
-	$db_connection = mysql_connect ('162.209.78.149', 'theskinn_user', 'dN)h~H5AzrzLsT552d37880#9305') or die (mysql_error());
-	$db_select = mysql_select_db ('sites_theskinny') or die (mysql_error());
-
-	$sqlList = mysql_query ("SELECT `HaikuText`, `Title` FROM `tblHaikus` ORDER BY `DateAdded` DESC");
-
-	while ($row = mysql_fetch_array ($sqlList)){
-		$htit = '<p style="margin-left:8em;"><b>'.$row[Title].'</b></p>';
-		$htext = '<p style="margin-left:10em;">'.$row[HaikuText].'</p><p>&nbsp;</p>';
-		$htext = str_replace ("\n", "<br>", $htext);
-		print $htit;
-		print $htext;
-	}
-
-
-
-	?>
-
-	</div>
-
-
-	<?php include("../indexFooter.php");	?>
-
-</div>
-</body>
-</html>
+	<p>Sorry, this page is broken.  I have a redesign in the works (May 22, 2023 is when I'm typing this -- hold me to it), and I have this page fixed on my machine.  I have to say, it's funny as hell.</p>
