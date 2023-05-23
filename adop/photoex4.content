@@ -1,0 +1,24 @@
+<div class="post">
+<h2>Home Study Photo Exhibit - Page 4</h2>
+<div class="entrytext">
+<br /><br />		
+
+<div class="navigation">
+	<table width="100%"><tr>
+		<td class="alignleft">&laquo;<a href="page.php?fn=photoex3.content">Photo Exhibit Page 3</td>
+		<td class="alignright"></td>
+	</tr></table>
+</div>
+<br />
+<img src="Slide4.JPG" />
+<br /><br />		
+
+<div class="navigation">
+	<table width="100%"><tr>
+		<td class="alignleft">&laquo;<a href="page.php?fn=photoex3.content">Photo Exhibit Page 3</td>
+		<td class="alignright"></td>
+	</tr></table>
+</div>
+<br />
+</div>
+</div>
