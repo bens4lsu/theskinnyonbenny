@@ -114,7 +114,7 @@ function chgImg (imgName, newImg){
 	    		$arrGalleries[$i] = str_replace(" ", "%20", $arrGalleries[$i]);
 
 	    		$PicLink = "<td width=\"50%\" height=\"113\">\n";
-				$PicLink = $PicLink."<a href=\"https://dynamic.theskinnyonbenny.com/gal/".$id."\" target=\"_blank\">";
+				$PicLink = $PicLink."<a href=\"https://dynamic.theskinnyonbenny.com/gal/".$id."\" target=\"_blank\"";
 				$PicLink = $PicLink." onmouseover=\"chgImg ('i".$key."','img".$keyred."');\" ";
 				$PicLink = $PicLink." onmouseout=\"chgImg ('i".$key."','img".$key."');\" >\n";
 
