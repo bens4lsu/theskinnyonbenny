@@ -101,11 +101,14 @@ function chgImg (imgName, newImg){
 			while ($i < $numGalleries){
 				if ($i%2 == 0){
 					echo "<tr>\n";
-					$Capt1 = str_replace ("%20", " ", $arrGalleries[$i]);
-					$arrCapt1 = explode(" - ",$Capt1, 2);
-					$id = $arrCapt1[0];
-					$Capt1 = $arrCapt1[1];
 				}
+				
+				$Capt1 = str_replace ("%20", " ", $arrGalleries[$i]);
+                $arrCapt1 = explode(" - ",$Capt1, 2);
+                $id = $arrCapt1[0];
+                $Capt1 = $arrCapt1[1];
+					
+					
 				$key=str_replace(" ","",$arrGalleries[$i]);              //get rid of spaces, commas, or hyphens in the variable name
 				$key=str_replace(".","",$key);
 				$key=str_replace("-","",$key);
@@ -126,7 +129,6 @@ function chgImg (imgName, newImg){
 					echo "</tr>\n\n";
 					$Capt2 = str_replace ("%20", " ", $arrGalleries[$i]);
 					$arrCapt2 = explode(" - ",$Capt2, 2);
-					$id = $arrCapt1[0];
 					$Capt2 = $arrCapt2[1];
 
 					echo "<tr><td width=\"50%\" height=\"38\" class=\"caption\">".$Capt1."<td width=\"50%\" height=\"38\" class=\"caption\">".$Capt2."</td></tr>\n\n";
