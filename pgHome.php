@@ -103,6 +103,7 @@ function chgImg (imgName, newImg){
 					echo "<tr>\n";
 					$Capt1 = str_replace ("%20", " ", $arrGalleries[$i]);
 					$arrCapt1 = explode(" - ",$Capt1, 2);
+					print_r($arrCapt1);
 					$Capt1 = $arrCapt1[1];
 				}
 				$key=str_replace(" ","",$arrGalleries[$i]);              //get rid of spaces, commas, or hyphens in the variable name
