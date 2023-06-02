@@ -103,7 +103,7 @@ function chgImg (imgName, newImg){
 					echo "<tr>\n";
 					$Capt1 = str_replace ("%20", " ", $arrGalleries[$i]);
 					$arrCapt1 = explode(" - ",$Capt1, 2);
-					print_r($arrCapt1);
+					$id = $arrCapt1[0];
 					$Capt1 = $arrCapt1[1];
 				}
 				$key=str_replace(" ","",$arrGalleries[$i]);              //get rid of spaces, commas, or hyphens in the variable name
@@ -114,7 +114,7 @@ function chgImg (imgName, newImg){
 	    		$arrGalleries[$i] = str_replace(" ", "%20", $arrGalleries[$i]);
 
 	    		$PicLink = "<td width=\"50%\" height=\"113\">\n";
-				$PicLink = $PicLink."<a href=\"/pg4.php?spgmGal=".$arrGalleries[$i]."\"";
+				$PicLink = $PicLink."<a href=\"https://dynamic.theskinnyonbenny.com/gal/".$id."\" target=\"_blank\">";
 				$PicLink = $PicLink." onmouseover=\"chgImg ('i".$key."','img".$keyred."');\" ";
 				$PicLink = $PicLink." onmouseout=\"chgImg ('i".$key."','img".$key."');\" >\n";
 
