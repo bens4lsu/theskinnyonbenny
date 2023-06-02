@@ -126,6 +126,7 @@ function chgImg (imgName, newImg){
 					echo "</tr>\n\n";
 					$Capt2 = str_replace ("%20", " ", $arrGalleries[$i]);
 					$arrCapt2 = explode(" - ",$Capt2, 2);
+					$id = $arrCapt1[0];
 					$Capt2 = $arrCapt2[1];
 
 					echo "<tr><td width=\"50%\" height=\"38\" class=\"caption\">".$Capt1."<td width=\"50%\" height=\"38\" class=\"caption\">".$Capt2."</td></tr>\n\n";
